@@ -54,14 +54,13 @@ const ExpenseItemsLister = ({expenseItems} : ExpenseItemsListerModel) => {
           <thead>
             <tr>
               <th style={{ backgroundColor: 'black', color: 'white' }}>Sr.No.</th>
-              <th style={{ backgroundColor: 'black', color: 'white' }}>Payee Name</th>
-              <th style={{ backgroundColor: 'black', color: 'white' }}>Expense Description</th>
               <th style={{ backgroundColor: 'black', color: 'white' }}>Expense Date</th>
+              <th style={{ backgroundColor: 'black', color: 'white' }}>Expense Description</th>
               <th style={{ backgroundColor: 'black', color: 'white' }}>Price</th>
+              <th style={{ backgroundColor: 'black', color: 'white' }}>Payee Name</th>
             </tr>
           </thead>
           <tbody>
-
             {
                 getExpenseItems().map( (expenseItem, index) => {
 
@@ -78,14 +77,10 @@ const ExpenseItemsLister = ({expenseItems} : ExpenseItemsListerModel) => {
                   )
                 })
             }
-
-            
           </tbody>
         </Table>      
-
     </div>
   )
-
 }
 
 export {ExpenseItemsLister}
