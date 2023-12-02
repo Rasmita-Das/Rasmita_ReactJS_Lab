@@ -12,18 +12,25 @@ const ExpenseItemsLister = ({expenseItems} : ExpenseItemsListerModel) => {
 
   const testExpenseItems : IExpenseItem[] = [
     {
-      "expenseDescription": "Internet Expenses",
-      "payeeName": "Ramesh",
+      "expenseDescription": "Bike Insurance",
+      "payeeName": "Ram",
       "price": 1100,
       "date": new Date(),
       "id": 1
     },
     {
-      "expenseDescription": "Bike Maintainence Expenses",
-      "payeeName": "Rahul",
+      "expenseDescription": "Grocery",
+      "payeeName": "Ramesh",
       "price": 3500,
       "date": new Date(),
       "id": 2
+    },
+    {
+      "expenseDescription": "Internet Expenses",
+      "payeeName": "Rahul",
+      "price": 1100,
+      "date": new Date(),
+      "id": 3
     },
   ]
 
